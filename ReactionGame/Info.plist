@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Plinktion: Ball Reaction Game</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>Main.storyboard</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb1492542911411934</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <string>TRUE</string>
+    <key>FacebookAppID</key>
+    <string>1492542911411934</string>
+    <key>FacebookClientToken</key>
+    <string>26ae19079b78f97345b7ce09bab0961a</string>
+    <key>FacebookDisplayName</key>
+    <string>Plinktion: Ball Reaction Game</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We collect this data for analytics and special offers in the menu for visitors</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This identifier will be used to show you personalized ads on the marketplaces.</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Dark</string>
+</dict>
+</plist>
