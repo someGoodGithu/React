@@ -13,7 +13,7 @@ workflows:
         XCODE_WORKSPACE: "ReactionGame.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "ReactionGame" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6739130827
-      xcode: 15.1
+      xcode: 15.4
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
